@@ -1,0 +1,8 @@
+{
+  "presets": [
+    "airbnb"
+  ],
+  "plugins":[
+    [ "transform-react-jsx", { "progma": "h" } ]
+  ]
+}
