@@ -3,6 +3,6 @@
     "airbnb"
   ],
   "plugins":[
-    [ "transform-react-jsx", { "progma": "h" } ]
+    [ "@babel/transform-react-jsx", { "pragma": "h" } ]
   ]
 }
