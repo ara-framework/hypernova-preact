@@ -1,6 +1,6 @@
 {
   "name": "hypernova-preact",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Preact Bindings for Hypernova",
   "main": "lib/index.js",
   "author": "Felipe Guizar Diaz <felipegaiacharly@gmail.com>",
@@ -24,12 +24,14 @@
   },
   "dependencies": {
     "hypernova": "^2.5.0",
-    "preact": "^8.4.2",
-    "preact-render-to-string": "^4.1.0"
+    "preact": "^10.0.5",
+    "preact-render-to-string": "^5.1.1"
   },
-  "peerDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-airbnb": "^2.5.3",
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/runtime": "^7.7.2",
+    "babel-preset-airbnb": "^4.1.0",
     "eslint": "^5.14.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0"
