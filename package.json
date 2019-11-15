@@ -1,6 +1,6 @@
 {
   "name": "hypernova-preact",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Preact Bindings for Hypernova",
   "main": "lib/index.js",
   "author": "Felipe Guizar Diaz <felipegaiacharly@gmail.com>",
