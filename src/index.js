@@ -19,7 +19,7 @@ export const renderPreact = (name, component) => hypernova({
         const { node, data } = payload;
         const element = h(component, data);
 
-        render(element, node, node.firstElementChild);
+        render(element, node);
       });
     }
 
